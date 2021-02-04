@@ -119,14 +119,21 @@ input{
 .card-project {
   width: 300px;
   height: 180px;
-  border-radius: 8px;
+  padding: 16px;
 }
 
 .card-project a,img {
   height: 100%;
   width: 100%;
+  border-radius: 8px;
 }
 
 a.project-button{
-
+  background-color: white;
+  color: black;
+  padding: 0px;
 }
+a.project-button:hover{
+  transform: scale(1.2);
+}
+
