@@ -4,11 +4,16 @@
 
 
 /* Style globale */
+
+/* Style globale */
 body{
-  margin: 5% 10%;
   font-family: "roboto";
   color: #1e3245;
-  background-color: rgb(249, 249, 253) 
+  background-color: rgb(249, 249, 253);
+}
+
+#main-container {
+  margin: 0% 10%;
 }
 
 h1, h2, h3, h4 {
@@ -17,10 +22,13 @@ h1, h2, h3, h4 {
 }
 
 a{
+  text-decoration: none;
+  /*
   background-color: #7e2fe126;
   color: #7f34ee;
   border-radius: 4px;
   padding: 0px 4px;
+  */
 }
 
 input{
@@ -138,4 +146,33 @@ a.project-button{
   background-color: white;
   color: black;
   padding: 0px;
+}
+
+#navbar {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  position: sticky;
+  top: 8px;
+  z-index: 10;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: /*#7f34de*/ rgba() solid 2px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.nav-home {
+  position: absolute;
+  left: 0px;
+  margin: 0px 20px;
+  flex-shrink: 1;
+}
+
+.nav-menu {
+  margin: 0px 20px;
+}
+
+.nav-btn {
+  padding: 0px 20px;
+  color: #0e918c;
 }

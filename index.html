@@ -5,75 +5,89 @@
   </head>
 
   <body>
-    <div id="top-div" class="card center">
-      <h1 class="green">Hi, I'm <span id="typed">Félix</span></h1>
-      <!-- TODO mettre une photo -->
-      <img class="avatar" src="https://picsum.photos/400"/><br/>
-      <a class="btn" href="" >Me contacter</a>
-    </div>
-
-    <div class="card">
-      <h2 class="green">Enchanté Félix, quel est ton parcours?</h2>
-      <p>
-      La légende raconte qu'en 2007, avec un bac S en poche, je me suis engagé dans des études de Biologie.<br/>
-      Après deux années infructueuses, j'ai travaillé 10 ans dans la restauration rapide.
-      en tant que formatteur et encadrant.<br/>
-      A l'aube de l'année 2020, à la faveur d'une certaine periode à vide dûe à un virus destructeur,
-      mon destin a pris un virage vers une carrière de developpeur.
-      </p>
-      <p>
-      Passionné de jeux vidéos, le rêve absolu serait d'en faire un métier.<br/>
-      Mais même dans le cas contraire, être capable de réaliser des projets de plus en plus ambitieux serait une bonne consolation.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2 class="red">C'est très bien tout ça Félix, mais que sais-tu faire?</h2>
-      <h3>Très bonne question!</h3>
-      <ul>
-        <li>python</li>
-        <li>HTML / CSS</li>
-        <li>Javascript (un peu)</li>
-        <li>Game Engines: Godot, Unity</li>
-        <li>Git</li>
-        <li>Environnements Windows et Linux</li>
-      </ul>
-    </div>
-
-
-    <div class="card">
-      <h2 class="blue">Des projets à nous montrer?</h2>
-      <div class="projects">
-        <div class="card-project">
-          <a class="project-button" href="">
-            <img src="assets/catheter.png" />
-          </a>
-        </div>
-        <div class="card-project">
-          <a class="project-button" href="">
-            <img src="assets/voie-veineuse.png" />
-          </a>
-        </div>
-        <div class="card-project">
-          <a class="project-button" href="">
-            <img src="assets/conditionnement.png" />
-          </a>
-        </div>
+    <div id="navbar">
+      <div class="nav-home">
+        <a class="nav-btn" href="">Accueil</a>
+      </div>
+      <div class="nav-menu">
+        <a class="nav-btn" href="#about">Parcours</a>
+        <a class="nav-btn" href="#projects">Compétences</a>
+        <a class="nav-btn" href="#misc">Projets</a>
       </div>
     </div>
 
-    <div class="card">
-      <h2 class="blue">Et en dehors de ça?</h2>
-      <h3>Hé bien, quand je suis loin d'un ordi, j'aime bien:</h3>
-      <ul>
-        <li>Fabriquer des bijoux -> <a href="https://drive.google.com/drive/folders/1trZVTuxcS2xTdb9ALXGGFBmSJfYCIVRJ?usp=sharing" target="_blank">Quelques photos</a> </li>
-        <li>Boire des bières avec des amis</li>
-        <li>Animer des jeux de rôle</li>
-        <li>Apprendre ou faire de nouvelles choses</li>
-      </ul>
+
+    <div id="main-container">
+      <div id="top-div" class="card center">
+        <h1 class="green">Hi, I'm <span id="typed">Félix</span></h1>
+        <!-- TODO mettre une photo -->
+        <img class="avatar" src="https://picsum.photos/400"/><br/>
+        <a class="btn" href="" >Me contacter</a>
+      </div>
+
+      <div id="about" class="card">
+        <h2 class="green">Enchanté Félix, quel est ton parcours?</h2>
+        <p>
+        La légende raconte qu'en 2007, avec un bac S en poche, je me suis engagé dans des études de Biologie.<br/>
+        Après deux années infructueuses, j'ai travaillé 10 ans dans la restauration rapide.
+        en tant que formatteur et encadrant.<br/>
+        A l'aube de l'année 2020, à la faveur d'une certaine periode à vide dûe à un virus destructeur,
+        mon destin a pris un virage vers une carrière de developpeur.
+        </p>
+        <p>
+        Passionné de jeux vidéos, le rêve absolu serait d'en faire un métier.<br/>
+        Mais même dans le cas contraire, être capable de réaliser des projets de plus en plus ambitieux serait une bonne consolation.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 class="red">C'est très bien tout ça Félix, mais que sais-tu faire?</h2>
+        <h3>Très bonne question!</h3>
+        <ul>
+          <li>python</li>
+          <li>HTML / CSS</li>
+          <li>Javascript (un peu)</li>
+          <li>Game Engines: Godot, Unity</li>
+          <li>Git</li>
+          <li>Environnements Windows et Linux</li>
+        </ul>
+      </div>
+
+
+      <div id="projects" class="card">
+        <h2 class="blue">Des projets à nous montrer?</h2>
+        <div class="projects">
+          <div class="card-project">
+            <a class="project-button" href="">
+              <img src="assets/catheter.png" />
+            </a>
+          </div>
+          <div class="card-project">
+            <a class="project-button" href="">
+              <img src="assets/voie-veineuse.png" />
+            </a>
+          </div>
+          <div class="card-project">
+            <a class="project-button" href="">
+              <img src="assets/conditionnement.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="misc" class="card">
+        <h2 class="blue">Et en dehors de ça?</h2>
+        <h3>Hé bien, quand je suis loin d'un ordi, j'aime bien:</h3>
+        <ul>
+          <li>Fabriquer des bijoux -> <a href="https://drive.google.com/drive/folders/1trZVTuxcS2xTdb9ALXGGFBmSJfYCIVRJ?usp=sharing" target="_blank">Quelques photos</a> </li>
+          <li>Boire des bières avec des amis</li>
+          <li>Animer des jeux de rôle</li>
+          <li>Apprendre ou faire de nouvelles choses</li>
+        </ul>
+      </div>
     </div>
 
-  <script type="text/javascript" src="script.js"
-  </body>
+    <script type="text/javascript" src="script.js"
+</body>
 
 </html>
