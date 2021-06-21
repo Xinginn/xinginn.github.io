@@ -67,14 +67,22 @@ h3 {
   color: rgb(50, 85, 130);
 }
 
-.projects-cards-container {
+.project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .project-card {
-  padding: 10px;
+  width: 400px;
+  height: 220px;
+  padding: 16px;
+  transition: all 0.8s;
+}
+
+.project-card:hover{
+  transform: scale(1.2);
+  border-radius: 8px;
 }
 
 /* ---- skills */
@@ -176,3 +184,5 @@ h3 {
 .contact-text-panel {
   width: 50%;
 }
+
+
