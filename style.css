@@ -82,7 +82,7 @@ h3 {
   border-radius: 8px;
 }
 
-.project-card a,img {
+.project-card a, .project-card img {
   width: 400px;
   height: 220px;
   padding: 16px;
