@@ -24,7 +24,7 @@ h3 {
   display: inline;
 }
 
-.project-container, skills-container, experiences-container, contact-container {
+.project-container, .skills-panel-container, .experiences-container, .contact-container {
   margin: 0px 8%;
 }
 
@@ -41,8 +41,8 @@ h3 {
 
 .presentation-container {
   display: flex;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   background-color: rgb(50, 85, 130);
 }
 
@@ -65,6 +65,10 @@ h3 {
   min-width: 100vw;
   background-color: rgb(248, 248, 248);
   color: rgb(50, 85, 130);
+}
+
+projects-container h3 {
+  padding-top: 20px;
 }
 
 .project-cards {
@@ -91,11 +95,14 @@ h3 {
 
 /* ---- skills */
 #skills {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   background-color: rgb(50, 85, 130);
 }
 
+.bloc-container {
+  margin: 12% 0px;
+}
 
 .skills-list-container {
   display: flex;
@@ -103,13 +110,17 @@ h3 {
   justify-content: space-between;
 }
 
-.skill-container {
-  width: 400px;
-  padding: 0px 12px;
+.skill {
+  width: 500px;
+  padding: 12px 12px;
+}
+
+.skill p {
+  font-size: 22px;
 }
 
 .skill-background {
-    border-radius: 10px;
+    border-radius: 12px;
     background-color: rgb(192, 192, 192);
 }
 
@@ -117,19 +128,22 @@ h3 {
     color: white;
     text-align: right;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .skill-fill.green { background-color: rgb(116, 194, 92); }
 .skill-fill.blue { background-color: rgb(92, 146, 194); }
+.skill-fill.teal { background-color: rgb(86, 164, 174); }
 .skill-fill.red { background-color: rgb(194, 72, 72); }
 .skill-fill.yellow { background-color: rgb(212, 182, 30); }
 
-.skill-fill span {
+.skill-fill p {
   margin-right: 10px;
+  padding: 3px 0px 2px 0px;
 }
 
 /* ---- experiencees */
+/*
 #experiences {
   min-height: 100vh;
   min-width: 100vw;
@@ -162,6 +176,7 @@ h3 {
   align-items: flex-start;
   margin-left: 10px;
 }
+*/
 
 /* ---- contact infos */
 #contact {
@@ -170,8 +185,8 @@ h3 {
 }
 
 .contact-container {
-  color: rgb(248, 248, 248);
-  background-color: rgb(50, 85, 130);
+  backgounr-color: rgb(248, 248, 248);
+  color: rgb(50, 85, 130);
 }
 
 .contact-list-container {
@@ -185,5 +200,3 @@ h3 {
 .contact-text-panel {
   width: 50%;
 }
-
-
