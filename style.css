@@ -2,6 +2,7 @@
 
 /* ---- global css */
 body { 
+  margin: 0;
   color: rgb(240, 240, 220);
   font-family: 'Benne', serif;
 }
@@ -141,8 +142,8 @@ projects-container h3 {
   padding: 3px 0px 2px 0px;
 }
 
-/* ---- experiencees */
-/*
+/* ---- experience
+
 #experiences {
   min-height: 100vh;
   min-width: 100vw;
@@ -175,7 +176,6 @@ projects-container h3 {
   align-items: flex-start;
   margin-left: 10px;
 }
-*/
 
 /* ---- contact infos */
 #contact {
